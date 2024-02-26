@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+.dm-sans{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{ font-family: "DM Sans", sans-serif;font-size: 16px; color: #666666; margin:0 }
+
+/*Menu*/
+.logo{width: 10%; height:10%;margin:0; align-items: center; }
+.menu{margin:0; padding: 0; width: 100%; min-height: 50px; align-items: center}
+.menu ul{display: flex; alignalign-items: center; list-style: none}
+.menu ul li a{text-decoration: none; display:block; padding: 5px 20px; color: rgba(116,114,114,1.00)}
+.menu ul li a:hover{background-color:darkred; color:white; border-radius:10px}
+.menu_icon img{width:70%; padding:2px}
+
+.banner{width:100%; height:auto}
+.img100{width:100%; height:auto}
+main{width:100%; min-height:500px}
+#banner .owl-dots{position: absolute; bottom: 10px; left:45%}
+#banner .owl-dots .owl-dot span{width: 12px; height: 12px;}
+#banner .owl-nav {position: absolute; left: 0px; top:40%;width:100%}
+#banner .owl-nav [class*=owl-]
+{font-size: 50px; color: #FFFFFF}
+#banner .owl-nav .owl-next{position: absolute; right: 5%;}
+#banner .owl-nav .owl-prev{position: absolute; left:5%;}
+#banner .owl-nav [class*='owl-']:hover
+#banner .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkred;
+      text-decoration: none; }
+.text-do{color:darkred}
+.vien{border: 1px solid darkred; border-radius: 5px; padding: 10px; position:relative; width:100%; overflow: hidden}
+.icon{position:absolute; width: 80%; display: flex; justify-content: space-around; height: 40px; left: 10%; top: -10%; transition: all 1s}
+.icon a{width: 40px; height: 40px; background-color: darkred; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; color: white}
+.icon a:hover{background-color: grey; color: white}
+.vien:hover .icon{top:40%}
+#feature{width: 100%; min-height: 850px; background-image:url("../images/bg2.png"); background-repeat: no-repeat; background-size:cover; background-position:center bottom}
+.pt_30{padding-top: 30px}
+.gach_chan{border-bottom: 2px solid darkred}
+.vientrang{border: 1px solid white; text-align:center; padding: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center}
+.vientrang a{text-decoration: none; color: darkred}
+.vientrang a:hover{color: rgba(116,114,114,1.00)}
+.tieude{font-size: 18px; font-weight:bold}
+main .blog{margin:0 auto; width:100%}
+.contact-us{margin:0; padding:0; top:5%; position: abosolute; left:40%; text-align:center}
+.align-center{text-align:center}
+.center{margin:auto;width:50%; padding: 10px}
+#contact{width: 100%; min-height:700px;background: url("../images/Banner2.png"); background-repeat: no-repeat; background-size: cover; background-position: center center}
+.bong{width: 100%;min-height: 400px; border: 1px solid rgba(116,114,114,1.00); box-shadow: 5px 5px 5px rgba(116,114,114,1.00); padding: 40px }
+.form-control{padding:8px; width: 100%; margin-bottom: 10px}
+.blog .col-6 h1{text-align: center}
+.button button:hover{color-background: darkred; color:white}
+
